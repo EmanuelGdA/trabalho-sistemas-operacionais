@@ -1,0 +1,17 @@
+Trabalho Pratico 1 - Gerenciamento de Memoria em Sistemas Operacionais
+Engenharia de Software - Turma ESOFT4 - Prof. Jose Carlos Domingues Flores
+
+Como compilar e executar (a partir da pasta codigos):
+
+Questao 1 (C):       gcc questao1.c -o questao1 && ./questao1
+Questao 2 (Python):  python questao2.py
+Questao 3 (Java):    javac FifoPaginas.java && java FifoPaginas
+Questao 4 (Python):  python questao4.py
+Questao 5 (C):       gcc -O0 questao5.c -o questao5 && ./questao5
+Bonus (Java):        javac ComparacaoLRU.java && java ComparacaoLRU
+
+Observacoes:
+- No Windows, use questao1.exe e questao5.exe no lugar de ./questao1 e ./questao5.
+- Nos programas Java, informe o numero de frames e a sequencia de referencias
+  separada por virgula. Exemplo: 3 e depois 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2
+- Se o javac avisar sobre codificacao, compile com: javac -encoding UTF-8 <arquivo>.java
